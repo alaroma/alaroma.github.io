@@ -1,0 +1,182 @@
+.content {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+body {
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-style: normal;
+	color: black;
+}
+
+header {
+	display: block;
+	background-color: #E5E5E5;
+}
+
+header h1 {
+	line-height: 75px;
+	font-size: 75px;
+	margin: 0;
+	padding: 200px 192px 20px 193px;
+}
+
+.header-text {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 0 330px 64px 331px;
+	margin: 0;
+}
+
+.download-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.download {
+	border-radius: 15px;
+	background-color: black;
+	width: 270px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+.button-apple {
+	margin-right: 30px;
+}
+
+.link { 
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	text-decoration: none;	
+}
+
+.icon {
+	background-position:  21px 24px;
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	padding: 33px 20px 35px 94px;
+}
+
+.icon-apple {
+  	background-image: url('img/icon/apple-icon-png.png');
+}
+
+.google {
+	background-position:  21px 25px;
+}
+
+.icon-google {
+	background-image: url('img/icon/playM.png');
+}
+
+main {
+	background-color: black;
+}
+
+.main-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.round-icon {
+	border-radius: 50%;
+	border: 3px solid #EEEEEE;
+	box-sizing: border-box;
+}
+
+.icon-play {
+	width: 80px;
+	height: 80px;
+	background: url("img/icon/iconLeft.png");
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	background-position:  5px 7px;
+}
+
+.icon-rotate {
+	transform: rotate(180deg);
+}
+
+.image-slider {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin-bottom: 35px;
+}
+
+.chess {
+	color: white;
+	line-height: 54px;
+	font-size: 45px;
+	padding-left: 199px;
+	padding-right: 198px;
+	margin-bottom: 50px;
+	position: absolute;
+	bottom: 0px;
+}
+
+footer {
+	display: block;
+	background-color: white;
+	margin:0;
+	padding-left: 76px;
+	padding-right: 76px;
+}
+
+.variants {
+	margin: 0;
+	line-height: 50px;
+	font-size: 50px;
+	padding: 104px 192px 50px 193px;
+}
+
+.variants-rest {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 200px;
+}
+
+.icon-home {
+	background: url("img/icon/icon-lamp.png") center 0 no-repeat;
+}
+
+.icon-learn {
+	background: url("img/icon/icon-learn.png") center 0 no-repeat;
+}
+
+.icon-friend {
+	background: url("img/icon/icon-friend.png") center 0 no-repeat;
+}
+
+h3 {	
+	line-height: 42px;
+	font-size: 35px;
+	margin-top: 168px;
+	margin-bottom: 10px;
+}
+
+.learn {
+	padding-right: 50px;
+	padding-left: 63px;
+}
+
+.text {
+	margin: 0;	
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 0;
+	width: 384px;
+}
+
+.nature {
+	width: 430px;
+}
